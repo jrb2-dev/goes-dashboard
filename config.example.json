@@ -1,0 +1,19 @@
+{
+  "satellite": "GOES-16",
+  "data_dir": "/home/pi/goes16",
+  "images_dir": "/home/pi/goes16",
+  "emwin_dir": "/home/pi/goes16/emwinTEXT/emwin",
+  "upload_logs_dir": "/home/pi",
+  "services": {
+    "receiver": "goesrecv",
+    "processors": ["goesproc-emwin", "goesproc-main"]
+  },
+  "upload_stations": ["kmob", "bmxal", "hunal", "nyny", "mflfl", "lixla", "ffcga", "lmkky"],
+  "image_types": {
+    "fd_fc": "fd/fc",
+    "m1_fc": "m1/fc",
+    "m2_fc": "m2/fc"
+  },
+  "dashboard_port": 8080,
+  "refresh_interval": 5000
+}
