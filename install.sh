@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # GOES Satellite Dashboard Installer
-# https://github.com/YOUR_USERNAME/goes-dashboard
+# https://github.com/jrb2-dev/goes-dashboard
 #
 # Usage:
 #   ./install.sh              # Install with defaults
